@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beck Anxiety Inventory (BAI)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Beck Anxiety Inventory</div>
+    <div class="assessment-subtitle">BAI · 21 items · Self-report</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="instructions">
+    Below is a list of common symptoms of anxiety. Please carefully read each item. Indicate how much you have been bothered by that symptom <strong>during the past month</strong>. Circle the number that best describes how much each symptom has bothered you.
+  </div>
+
+  <div id="questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">Numbness or tingling</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q1" value="0" /><span class="option-score">0</span>Not at all – Did not bother me at all</label>
+        <label class="option-label"><input type="radio" name="q1" value="1" /><span class="option-score">1</span>Mildly – It did not bother me much</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" /><span class="option-score">2</span>Moderately – It was very unpleasant, but I could stand it</label>
+        <label class="option-label"><input type="radio" name="q1" value="3" /><span class="option-score">3</span>Severely – I could barely stand it</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">Feeling hot</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q2" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q2" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q2" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q2" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">Wobbliness in legs</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q3" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q3" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q3" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">Unable to relax</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q4" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q4" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q4" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">Fear of the worst happening</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q5" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q5" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q5" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">Dizzy or lightheaded</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q6" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q6" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q6" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">Heart pounding or racing</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q7" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q7" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q7" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 8</div>
+      <div class="question-text">Unsteady</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q8" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q8" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q8" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q8" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 9</div>
+      <div class="question-text">Terrified or afraid</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q9" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q9" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q9" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q9" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 10</div>
+      <div class="question-text">Nervous</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q10" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q10" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q10" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q10" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 11</div>
+      <div class="question-text">Feeling of choking</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q11" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q11" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q11" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q11" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 12</div>
+      <div class="question-text">Hands trembling</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q12" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q12" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q12" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q12" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 13</div>
+      <div class="question-text">Shaky or unsteady</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q13" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q13" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q13" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q13" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 14</div>
+      <div class="question-text">Fear of losing control</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q14" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q14" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q14" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q14" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 15</div>
+      <div class="question-text">Difficulty breathing</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q15" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q15" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q15" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q15" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 16</div>
+      <div class="question-text">Fear of dying</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q16" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q16" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q16" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q16" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 17</div>
+      <div class="question-text">Scared</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q17" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q17" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q17" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q17" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 18</div>
+      <div class="question-text">Indigestion or discomfort in stomach</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q18" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q18" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q18" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q18" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 19</div>
+      <div class="question-text">Faint or lightheaded</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q19" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q19" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q19" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q19" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 20</div>
+      <div class="question-text">Face flushed</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q20" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q20" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q20" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q20" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 21</div>
+      <div class="question-text">Hot or cold sweats</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q21" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q21" value="1" /><span class="option-score">1</span>Mildly</label>
+        <label class="option-label"><input type="radio" name="q21" value="2" /><span class="option-score">2</span>Moderately</label>
+        <label class="option-label"><input type="radio" name="q21" value="3" /><span class="option-score">3</span>Severely</label>
+      </div>
+    </div>
+
+  </div><!-- end questions -->
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 63</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">Low anxiety</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 21 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+function getInterpretation(score) {
+  if (score <= 21) return 'Low anxiety';
+  if (score <= 35) return 'Moderate anxiety';
+  return 'High anxiety';
+}
+
+function updateScore() {
+  let total = 0;
+  document.querySelectorAll('.question-block').forEach(block => {
+    const selected = block.querySelector('input[type="radio"]:checked');
+    if (selected) total += parseInt(selected.value);
+  });
+  document.getElementById('live-score').textContent = total;
+  document.getElementById('interpretation').textContent = getInterpretation(total);
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const score = parseInt(document.getElementById('live-score').textContent);
+  const interp = getInterpretation(score);
+  generatePDF('Beck Anxiety Inventory (BAI)', String(score), interp);
+}
+</script>
+</body>
+</html>
