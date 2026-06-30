@@ -10,6 +10,7 @@
   --accent: #2D5FA6;
   --accent-light: #EDF2FB;
   --danger: #C0392B;
+  --danger-light: #FBEAE7;
   --success: #27AE60;
   --radius: 10px;
   --font-body: 'Inter', system-ui, sans-serif;
@@ -120,6 +121,18 @@ h3 { font-size: 1rem; font-weight: 600; }
   transition: border-color 0.15s;
 }
 .field-group input:focus { border-color: var(--accent); }
+
+/* ── Disclaimer Banner ── */
+.disclaimer-banner {
+  background: var(--danger-light);
+  border-left: 3px solid var(--danger);
+  border-radius: 0 var(--radius) var(--radius) 0;
+  padding: 14px 18px;
+  font-size: 0.8rem;
+  color: #7A2E22;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
 
 /* ── Instructions ── */
 .instructions {
