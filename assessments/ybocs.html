@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yale-Brown Obsessive Compulsive Scale (Y-BOCS)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Yale-Brown Obsessive Compulsive Scale</div>
+    <div class="assessment-subtitle">Y-BOCS · 10 items · Clinician-administered</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="instructions">
+    Rate each item based on the client's experience <strong>over the past week.</strong> Items 1–5 assess obsessions; items 6–10 assess compulsions. If obsessions and compulsions cannot be separated, rate both subscales using combined symptoms.
+  </div>
+
+  <h2 class="category-label" style="margin: 28px 0 14px;">Obsessions</h2>
+  <div id="obsession-questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">Time occupied by obsessive thoughts</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q1" value="0" /><span class="option-score">0</span>None</label>
+        <label class="option-label"><input type="radio" name="q1" value="1" /><span class="option-score">1</span>Mild — less than 1 hr/day, or occasional intrusion</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" /><span class="option-score">2</span>Moderate — 1–3 hrs/day, or frequent intrusion</label>
+        <label class="option-label"><input type="radio" name="q1" value="3" /><span class="option-score">3</span>Severe — more than 3–8 hrs/day, or very frequent intrusion</label>
+        <label class="option-label"><input type="radio" name="q1" value="4" /><span class="option-score">4</span>Extreme — more than 8 hrs/day, or near-constant intrusion</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">Interference due to obsessive thoughts</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q2" value="0" /><span class="option-score">0</span>None</label>
+        <label class="option-label"><input type="radio" name="q2" value="1" /><span class="option-score">1</span>Mild — slight interference with social/occupational activities</label>
+        <label class="option-label"><input type="radio" name="q2" value="2" /><span class="option-score">2</span>Moderate — definite interference, but still manageable</label>
+        <label class="option-label"><input type="radio" name="q2" value="3" /><span class="option-score">3</span>Severe — substantial impairment</label>
+        <label class="option-label"><input type="radio" name="q2" value="4" /><span class="option-score">4</span>Extreme — incapacitating</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">Distress associated with obsessive thoughts</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q3" value="0" /><span class="option-score">0</span>None</label>
+        <label class="option-label"><input type="radio" name="q3" value="1" /><span class="option-score">1</span>Mild — infrequent, not too disturbing</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" /><span class="option-score">2</span>Moderate — frequent, disturbing but manageable</label>
+        <label class="option-label"><input type="radio" name="q3" value="3" /><span class="option-score">3</span>Severe — very frequent, very disturbing</label>
+        <label class="option-label"><input type="radio" name="q3" value="4" /><span class="option-score">4</span>Extreme — near constant, disabling distress</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">Resistance against obsessions</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q4" value="0" /><span class="option-score">0</span>Makes an effort to always resist, or symptoms minimal</label>
+        <label class="option-label"><input type="radio" name="q4" value="1" /><span class="option-score">1</span>Tries to resist most of the time</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" /><span class="option-score">2</span>Makes some effort to resist</label>
+        <label class="option-label"><input type="radio" name="q4" value="3" /><span class="option-score">3</span>Yields to almost all obsessions without resistance, but with some reluctance</label>
+        <label class="option-label"><input type="radio" name="q4" value="4" /><span class="option-score">4</span>Completely and willingly yields to all obsessions</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">Degree of control over obsessive thoughts</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q5" value="0" /><span class="option-score">0</span>Complete control, or no obsessions</label>
+        <label class="option-label"><input type="radio" name="q5" value="1" /><span class="option-score">1</span>Much control — usually able to stop or divert thoughts with effort</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" /><span class="option-score">2</span>Moderate control — sometimes able to stop or divert thoughts</label>
+        <label class="option-label"><input type="radio" name="q5" value="3" /><span class="option-score">3</span>Little control — rarely succeeds in stopping thoughts</label>
+        <label class="option-label"><input type="radio" name="q5" value="4" /><span class="option-score">4</span>No control — experienced as completely involuntary</label>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 class="category-label" style="margin: 28px 0 14px;">Compulsions</h2>
+  <div id="compulsion-questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">Time spent performing compulsive behaviors</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q6" value="0" /><span class="option-score">0</span>None</label>
+        <label class="option-label"><input type="radio" name="q6" value="1" /><span class="option-score">1</span>Mild — less than 1 hr/day, or occasional performance</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" /><span class="option-score">2</span>Moderate — 1–3 hrs/day, or frequent performance</label>
+        <label class="option-label"><input type="radio" name="q6" value="3" /><span class="option-score">3</span>Severe — more than 3–8 hrs/day, or very frequent performance</label>
+        <label class="option-label"><input type="radio" name="q6" value="4" /><span class="option-score">4</span>Extreme — more than 8 hrs/day, or near-constant performance</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">Interference due to compulsive behaviors</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q7" value="0" /><span class="option-score">0</span>None</label>
+        <label class="option-label"><input type="radio" name="q7" value="1" /><span class="option-score">1</span>Mild — slight interference with activities</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" /><span class="option-score">2</span>Moderate — definite interference, but still manageable</label>
+        <label class="option-label"><input type="radio" name="q7" value="3" /><span class="option-score">3</span>Severe — substantial impairment</label>
+        <label class="option-label"><input type="radio" name="q7" value="4" /><span class="option-score">4</span>Extreme — incapacitating</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 8</div>
+      <div class="question-text">Distress associated with compulsive behavior</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q8" value="0" /><span class="option-score">0</span>None</label>
+        <label class="option-label"><input type="radio" name="q8" value="1" /><span class="option-score">1</span>Mild — only slightly anxious if compulsion prevented</label>
+        <label class="option-label"><input type="radio" name="q8" value="2" /><span class="option-score">2</span>Moderate — anxiety would mount but remain manageable if prevented</label>
+        <label class="option-label"><input type="radio" name="q8" value="3" /><span class="option-score">3</span>Severe — prominent, very disturbing rise in anxiety if prevented</label>
+        <label class="option-label"><input type="radio" name="q8" value="4" /><span class="option-score">4</span>Extreme — incapacitating anxiety if compulsion interrupted</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 9</div>
+      <div class="question-text">Resistance against compulsions</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q9" value="0" /><span class="option-score">0</span>Makes an effort to always resist, or symptoms minimal</label>
+        <label class="option-label"><input type="radio" name="q9" value="1" /><span class="option-score">1</span>Tries to resist most of the time</label>
+        <label class="option-label"><input type="radio" name="q9" value="2" /><span class="option-score">2</span>Makes some effort to resist</label>
+        <label class="option-label"><input type="radio" name="q9" value="3" /><span class="option-score">3</span>Yields to almost all compulsions without resistance, but with some reluctance</label>
+        <label class="option-label"><input type="radio" name="q9" value="4" /><span class="option-score">4</span>Completely and willingly yields to all compulsions</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 10</div>
+      <div class="question-text">Degree of control over compulsive behavior</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q10" value="0" /><span class="option-score">0</span>Complete control, or no compulsions</label>
+        <label class="option-label"><input type="radio" name="q10" value="1" /><span class="option-score">1</span>Much control — pressure to perform but usually able to delay</label>
+        <label class="option-label"><input type="radio" name="q10" value="2" /><span class="option-score">2</span>Moderate control — definite pressure, must be performed but can sometimes delay</label>
+        <label class="option-label"><input type="radio" name="q10" value="3" /><span class="option-score">3</span>Little control — strong pressure, must be completed, can only delay briefly</label>
+        <label class="option-label"><input type="radio" name="q10" value="4" /><span class="option-score">4</span>No control — performance experienced as completely involuntary</label>
+      </div>
+    </div>
+
+  </div><!-- end questions -->
+
+  <div class="subscale-grid" id="subscale-grid" style="grid-template-columns: 1fr 1fr;">
+    <div class="subscale-item">
+      <div class="subscale-score" id="obsession-score">0</div>
+      <div class="subscale-name">Obsessions (Q1–5)</div>
+    </div>
+    <div class="subscale-item">
+      <div class="subscale-score" id="compulsion-score">0</div>
+      <div class="subscale-name">Compulsions (Q6–10)</div>
+    </div>
+  </div>
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 40</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">Subclinical</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 10 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+const OBSESSION_ITEMS = [1, 2, 3, 4, 5];
+const COMPULSION_ITEMS = [6, 7, 8, 9, 10];
+
+function getVal(q) {
+  const el = document.querySelector(`input[name="q${q}"]:checked`);
+  return el ? parseInt(el.value) : 0;
+}
+
+function sumItems(items) {
+  return items.reduce((sum, q) => sum + getVal(q), 0);
+}
+
+function getInterpretation(score) {
+  if (score <= 7) return 'Subclinical';
+  if (score <= 15) return 'Mild';
+  if (score <= 23) return 'Moderate';
+  if (score <= 31) return 'Severe';
+  return 'Extreme';
+}
+
+function updateScore() {
+  const obsessions = sumItems(OBSESSION_ITEMS);
+  const compulsions = sumItems(COMPULSION_ITEMS);
+  const total = obsessions + compulsions;
+
+  document.getElementById('live-score').textContent = total;
+  document.getElementById('obsession-score').textContent = obsessions;
+  document.getElementById('compulsion-score').textContent = compulsions;
+  document.getElementById('interpretation').textContent = getInterpretation(total);
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const total = parseInt(document.getElementById('live-score').textContent);
+  const interp = getInterpretation(total);
+  const obsessions = document.getElementById('obsession-score').textContent;
+  const compulsions = document.getElementById('compulsion-score').textContent;
+
+  generatePDF('Yale-Brown Obsessive Compulsive Scale (Y-BOCS)', String(total), interp, [
+    { name: 'Obsessions', score: obsessions },
+    { name: 'Compulsions', score: compulsions },
+  ]);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beck Hopelessness Scale (BHS)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Beck Hopelessness Scale</div>
+    <div class="assessment-subtitle">BHS · 20 items · True / False</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="instructions">
+    Please answer each statement as <strong>True</strong> or <strong>False</strong>, based on how you have been feeling <strong>during the past week, including today.</strong>
+  </div>
+
+  <div id="questions">
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">I look forward to the future with hope and enthusiasm.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q1" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q1" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">I might as well give up because I can't make things better for myself.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q2" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q2" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">When things are going badly, I am helped by knowing they can't stay that way forever.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q3" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q3" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">I can't imagine what my life would be like in 10 years.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q4" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q4" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">I have enough time to accomplish the things I most want to do.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q5" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q5" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">In the future, I expect to succeed in what concerns me most.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q6" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q6" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">My future seems dark to me.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q7" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q7" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 8</div>
+      <div class="question-text">I expect to get more good things in life than the average person.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q8" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q8" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 9</div>
+      <div class="question-text">I just don't get the breaks, and there's no reason to believe I will in the future.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q9" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q9" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 10</div>
+      <div class="question-text">My past experiences have prepared me well for the future.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q10" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q10" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 11</div>
+      <div class="question-text">All I can see ahead of me is unpleasantness rather than pleasantness.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q11" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q11" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 12</div>
+      <div class="question-text">I don't expect to get what I really want.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q12" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q12" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 13</div>
+      <div class="question-text">When I look ahead to the future, I expect I will be happier than I am now.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q13" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q13" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 14</div>
+      <div class="question-text">Things just won't work out the way I want them to.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q14" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q14" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 15</div>
+      <div class="question-text">I have great faith in the future.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q15" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q15" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 16</div>
+      <div class="question-text">I never get what I want, so it's foolish to want anything.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q16" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q16" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 17</div>
+      <div class="question-text">It is very unlikely that I will get any real satisfaction in the future.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q17" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q17" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 18</div>
+      <div class="question-text">The future seems vague and uncertain to me.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q18" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q18" value="0" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block" data-reverse="true">
+      <div class="question-number">Question 19</div>
+      <div class="question-text">I can look forward to more good times than bad times.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q19" value="0" />True</label>
+        <label class="tf-label"><input type="radio" name="q19" value="1" />False</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 20</div>
+      <div class="question-text">There's no use in really trying to get something I want because I probably won't get it.</div>
+      <div class="tf-options">
+        <label class="tf-label"><input type="radio" name="q20" value="1" />True</label>
+        <label class="tf-label"><input type="radio" name="q20" value="0" />False</label>
+      </div>
+    </div>
+
+  </div><!-- end questions -->
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 20</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">None or minimal</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 20 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+function getInterpretation(score) {
+  if (score <= 3) return 'None or minimal';
+  if (score <= 8) return 'Mild';
+  if (score <= 14) return 'Moderate — check in frequently';
+  return 'Severe — needs support ASAP';
+}
+
+function updateScore() {
+  let total = 0;
+  document.querySelectorAll('.question-block').forEach(block => {
+    const selected = block.querySelector('input[type="radio"]:checked');
+    if (selected) total += parseInt(selected.value);
+  });
+  document.getElementById('live-score').textContent = total;
+  document.getElementById('interpretation').textContent = getInterpretation(total);
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const score = parseInt(document.getElementById('live-score').textContent);
+  const interp = getInterpretation(score);
+  generatePDF('Beck Hopelessness Scale (BHS)', String(score), interp);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perceived Stress Scale (PSS-10)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Perceived Stress Scale</div>
+    <div class="assessment-subtitle">PSS-10 · 10 items · Self-report</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="instructions">
+    The questions ask about your feelings and thoughts <strong>during the last month.</strong> For each question, indicate how often you felt or thought a certain way.
+  </div>
+
+  <div id="questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">In the last month, how often have you been upset because of something that happened unexpectedly?</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q1" value="0" /><span class="option-score">0</span>Never</label>
+        <label class="option-label"><input type="radio" name="q1" value="1" /><span class="option-score">1</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q1" value="3" /><span class="option-score">3</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q1" value="4" /><span class="option-score">4</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">In the last month, how often have you felt that you were unable to control the important things in your life?</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q2" value="0" /><span class="option-score">0</span>Never</label>
+        <label class="option-label"><input type="radio" name="q2" value="1" /><span class="option-score">1</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q2" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q2" value="3" /><span class="option-score">3</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q2" value="4" /><span class="option-score">4</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">In the last month, how often have you felt nervous and stressed?</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q3" value="0" /><span class="option-score">0</span>Never</label>
+        <label class="option-label"><input type="radio" name="q3" value="1" /><span class="option-score">1</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q3" value="3" /><span class="option-score">3</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q3" value="4" /><span class="option-score">4</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">In the last month, how often have you felt confident about your ability to handle your personal problems? <em>(reverse scored)</em></div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q4" value="4" /><span class="option-score">4</span>Never</label>
+        <label class="option-label"><input type="radio" name="q4" value="3" /><span class="option-score">3</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q4" value="1" /><span class="option-score">1</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q4" value="0" /><span class="option-score">0</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">In the last month, how often have you felt that things were going your way? <em>(reverse scored)</em></div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q5" value="4" /><span class="option-score">4</span>Never</label>
+        <label class="option-label"><input type="radio" name="q5" value="3" /><span class="option-score">3</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q5" value="1" /><span class="option-score">1</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q5" value="0" /><span class="option-score">0</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">In the last month, how often have you found that you could not cope with all the things that you had to do?</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q6" value="0" /><span class="option-score">0</span>Never</label>
+        <label class="option-label"><input type="radio" name="q6" value="1" /><span class="option-score">1</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q6" value="3" /><span class="option-score">3</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q6" value="4" /><span class="option-score">4</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">In the last month, how often have you been able to control irritations in your life? <em>(reverse scored)</em></div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q7" value="4" /><span class="option-score">4</span>Never</label>
+        <label class="option-label"><input type="radio" name="q7" value="3" /><span class="option-score">3</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q7" value="1" /><span class="option-score">1</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q7" value="0" /><span class="option-score">0</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 8</div>
+      <div class="question-text">In the last month, how often have you felt that you were on top of things? <em>(reverse scored)</em></div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q8" value="4" /><span class="option-score">4</span>Never</label>
+        <label class="option-label"><input type="radio" name="q8" value="3" /><span class="option-score">3</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q8" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q8" value="1" /><span class="option-score">1</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q8" value="0" /><span class="option-score">0</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 9</div>
+      <div class="question-text">In the last month, how often have you been angered because of things that happened that were outside of your control?</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q9" value="0" /><span class="option-score">0</span>Never</label>
+        <label class="option-label"><input type="radio" name="q9" value="1" /><span class="option-score">1</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q9" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q9" value="3" /><span class="option-score">3</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q9" value="4" /><span class="option-score">4</span>Very often</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 10</div>
+      <div class="question-text">In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q10" value="0" /><span class="option-score">0</span>Never</label>
+        <label class="option-label"><input type="radio" name="q10" value="1" /><span class="option-score">1</span>Almost never</label>
+        <label class="option-label"><input type="radio" name="q10" value="2" /><span class="option-score">2</span>Sometimes</label>
+        <label class="option-label"><input type="radio" name="q10" value="3" /><span class="option-score">3</span>Fairly often</label>
+        <label class="option-label"><input type="radio" name="q10" value="4" /><span class="option-score">4</span>Very often</label>
+      </div>
+    </div>
+
+  </div><!-- end questions -->
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 40</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">Low stress</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 10 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+function getInterpretation(score) {
+  if (score <= 13) return 'Low stress';
+  if (score <= 26) return 'Moderate stress';
+  return 'High perceived stress';
+}
+
+function updateScore() {
+  let total = 0;
+  document.querySelectorAll('.question-block').forEach(block => {
+    const selected = block.querySelector('input[type="radio"]:checked');
+    if (selected) total += parseInt(selected.value);
+  });
+  document.getElementById('live-score').textContent = total;
+  document.getElementById('interpretation').textContent = getInterpretation(total);
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const score = parseInt(document.getElementById('live-score').textContent);
+  const interp = getInterpretation(score);
+  generatePDF('Perceived Stress Scale (PSS-10)', String(score), interp);
+}
+</script>
+</body>
+</html>

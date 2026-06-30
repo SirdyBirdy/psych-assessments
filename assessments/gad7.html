@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GAD-7</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Generalised Anxiety Disorder Scale</div>
+    <div class="assessment-subtitle">GAD-7 · 7 items · Self-report</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="instructions">
+    Over the <strong>last 2 weeks</strong>, how often have you been bothered by the following problems?
+  </div>
+
+  <div id="questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">Feeling nervous, anxious, or on edge</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q1" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q1" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q1" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">Not being able to stop or control worrying</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q2" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q2" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q2" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q2" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">Worrying too much about different things</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q3" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q3" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q3" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">Trouble relaxing</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q4" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q4" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q4" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">Being so restless that it is hard to sit still</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q5" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q5" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q5" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">Becoming easily annoyed or irritable</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q6" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q6" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q6" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">Feeling afraid as if something awful might happen</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q7" value="0" /><span class="option-score">0</span>Not at all</label>
+        <label class="option-label"><input type="radio" name="q7" value="1" /><span class="option-score">1</span>Several days</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" /><span class="option-score">2</span>More than half the days</label>
+        <label class="option-label"><input type="radio" name="q7" value="3" /><span class="option-score">3</span>Nearly every day</label>
+      </div>
+    </div>
+
+  </div><!-- end questions -->
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 21</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">Minimal anxiety</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 7 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+function getInterpretation(score) {
+  if (score <= 4) return 'Minimal anxiety';
+  if (score <= 9) return 'Mild anxiety';
+  if (score <= 14) return 'Moderate anxiety';
+  return 'Severe anxiety';
+}
+
+function updateScore() {
+  let total = 0;
+  document.querySelectorAll('.question-block').forEach(block => {
+    const selected = block.querySelector('input[type="radio"]:checked');
+    if (selected) total += parseInt(selected.value);
+  });
+  document.getElementById('live-score').textContent = total;
+  document.getElementById('interpretation').textContent = getInterpretation(total);
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const score = parseInt(document.getElementById('live-score').textContent);
+  const interp = getInterpretation(score);
+  generatePDF('Generalised Anxiety Disorder Scale (GAD-7)', String(score), interp);
+}
+</script>
+</body>
+</html>
