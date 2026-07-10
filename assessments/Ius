@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intolerance of Uncertainty Scale (IUS)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Intolerance of Uncertainty Scale</div>
+    <div class="assessment-subtitle">IUS-27 · 27 items · Self-report</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="disclaimer-banner"></div>
+
+  <div class="instructions">
+    Below is a series of statements which describe how people may react to the uncertainties of life. Please use the scale below to describe to what extent each item is characteristic of you, from <strong>1 (not at all characteristic of me)</strong> to <strong>5 (entirely characteristic of me).</strong>
+  </div>
+
+  <div id="questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">Uncertainty stops me from having a firm opinion.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q1" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q1" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q1" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q1" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">Being uncertain means that a person is disorganized.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q2" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q2" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q2" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q2" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q2" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">Uncertainty makes life intolerable.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q3" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q3" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q3" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q3" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">It's unfair not having any guarantees in life.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q4" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q4" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q4" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q4" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">My mind can't be relaxed if I don't know what will happen tomorrow.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q5" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q5" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q5" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q5" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">Uncertainty makes me uneasy, anxious, or stressed.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q6" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q6" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q6" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q6" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">Unforeseen events upset me greatly.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q7" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q7" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q7" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q7" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 8</div>
+      <div class="question-text">It frustrates me not having all the information I need.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q8" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q8" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q8" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q8" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q8" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 9</div>
+      <div class="question-text">Uncertainty keeps me from living a full life.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q9" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q9" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q9" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q9" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q9" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 10</div>
+      <div class="question-text">One should always look ahead so as to avoid surprises.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q10" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q10" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q10" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q10" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q10" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 11</div>
+      <div class="question-text">A small unforeseen event can spoil everything, even with the best of planning.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q11" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q11" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q11" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q11" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q11" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 12</div>
+      <div class="question-text">When it's time to act, uncertainty paralyses me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q12" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q12" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q12" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q12" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q12" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 13</div>
+      <div class="question-text">Being uncertain means that I am not first rate.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q13" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q13" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q13" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q13" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q13" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 14</div>
+      <div class="question-text">When I am uncertain, I can't go forward.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q14" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q14" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q14" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q14" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q14" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 15</div>
+      <div class="question-text">When I am uncertain I can't function very well.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q15" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q15" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q15" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q15" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q15" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 16</div>
+      <div class="question-text">Unlike me, others always seem to know where they are going with their lives.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q16" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q16" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q16" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q16" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q16" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 17</div>
+      <div class="question-text">Uncertainty makes me vulnerable, unhappy, or sad.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q17" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q17" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q17" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q17" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q17" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 18</div>
+      <div class="question-text">I always want to know what the future has in store for me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q18" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q18" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q18" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q18" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q18" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 19</div>
+      <div class="question-text">I can't stand being taken by surprise.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q19" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q19" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q19" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q19" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q19" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 20</div>
+      <div class="question-text">The smallest doubt can stop me from acting.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q20" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q20" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q20" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q20" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q20" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 21</div>
+      <div class="question-text">I should be able to organize everything in advance.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q21" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q21" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q21" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q21" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q21" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 22</div>
+      <div class="question-text">Being uncertain means that I lack confidence.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q22" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q22" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q22" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q22" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q22" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 23</div>
+      <div class="question-text">I think it's unfair that other people seem sure about their future.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q23" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q23" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q23" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q23" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q23" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 24</div>
+      <div class="question-text">Uncertainty keeps me from sleeping soundly.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q24" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q24" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q24" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q24" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q24" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 25</div>
+      <div class="question-text">I must get away from all uncertain situations.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q25" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q25" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q25" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q25" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q25" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 26</div>
+      <div class="question-text">The ambiguities in life stress me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q26" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q26" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q26" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q26" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q26" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 27</div>
+      <div class="question-text">I can't stand being undecided about my future.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q27" value="1" /><span class="option-score">1</span>Not at all characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q27" value="2" /><span class="option-score">2</span>A little characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q27" value="3" /><span class="option-score">3</span>Somewhat characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q27" value="4" /><span class="option-score">4</span>Very characteristic of me</label>
+        <label class="option-label"><input type="radio" name="q27" value="5" /><span class="option-score">5</span>Entirely characteristic of me</label>
+      </div>
+    </div>
+
+  </div><!-- end questions -->
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 135</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">—</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 27 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+// Factor 1: Uncertainty has negative behavioural and self-referent implications
+const FACTOR_1_ITEMS = [1, 2, 3, 9, 12, 13, 14, 15, 16, 17, 20, 22, 23, 24, 25];
+// Factor 2: Uncertainty is unfair and spoils everything
+const FACTOR_2_ITEMS = [4, 5, 6, 7, 8, 10, 11, 18, 19, 21, 26, 27];
+
+// Approximate descriptive bands (IUS-27 has no single official clinical
+// cutoff the way the BDI does — these are broad, evidence-informed bands
+// for screening context only).
+function getInterpretation(score) {
+  if (score <= 54) return 'Low intolerance of uncertainty';
+  if (score <= 77) return 'Moderate intolerance of uncertainty';
+  if (score <= 99) return 'High intolerance of uncertainty';
+  return 'Very high intolerance of uncertainty';
+}
+
+function getItemValue(itemNum) {
+  const block = document.querySelectorAll('.question-block')[itemNum - 1];
+  const selected = block?.querySelector('input[type="radio"]:checked');
+  return selected ? parseInt(selected.value) : 0;
+}
+
+function sumItems(items) {
+  return items.reduce((sum, n) => sum + getItemValue(n), 0);
+}
+
+function updateScore() {
+  let total = 0;
+  document.querySelectorAll('.question-block').forEach(block => {
+    const selected = block.querySelector('input[type="radio"]:checked');
+    if (selected) total += parseInt(selected.value);
+  });
+  document.getElementById('live-score').textContent = total;
+  document.getElementById('interpretation').textContent = getInterpretation(total);
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const score = parseInt(document.getElementById('live-score').textContent);
+  const interp = getInterpretation(score);
+  const factor1 = sumItems(FACTOR_1_ITEMS);
+  const factor2 = sumItems(FACTOR_2_ITEMS);
+  generatePDF('Intolerance of Uncertainty Scale (IUS-27)', String(score), interp, [
+    { name: 'Factor 1: Behavioural/self-referent', score: factor1 },
+    { name: 'Factor 2: Unfair & spoils everything', score: factor2 },
+  ]);
+}
+</script>
+</body>
+</html>
