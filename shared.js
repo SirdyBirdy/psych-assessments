@@ -70,6 +70,19 @@ const DISCLAIMER_TEXT =
   'Results should be interpreted by a qualified clinician in conjunction with a full clinical assessment. ' +
   'For internal clinical use only — not intended for medicolegal, forensic, or evidentiary purposes.';
 
+// Auto-fill any empty disclaimer banner on the page with the standard text.
+// This means new assessment pages only need an empty
+// <div class="disclaimer-banner"></div> in their HTML — no need to retype
+// the wording each time. If a page already has custom text inside the div,
+// it's left untouched.
+function initDisclaimer() {
+  document.querySelectorAll('.disclaimer-banner').forEach(el => {
+    if (!el.textContent.trim()) {
+      el.textContent = DISCLAIMER_TEXT;
+    }
+  });
+}
+
 // PDF generation using jsPDF
 async function generatePDF(assessmentName, scoreText, interpretationText, subscales = null) {
   const { jsPDF } = window.jspdf;
@@ -226,4 +239,5 @@ function initDateField() {
 document.addEventListener('DOMContentLoaded', () => {
   initOptions();
   initDateField();
+  initDisclaimer();
 });
