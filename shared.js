@@ -227,6 +227,31 @@ async function generatePDF(assessmentName, scoreText, interpretationText, subsca
   doc.save(`${fileClient}_${fileAssessment}_${fileDate}.pdf`);
 }
 
+// Render the assessment index page from the ASSESSMENTS registry
+// (see assessments-data.js). Does nothing on assessment pages, since
+// those don't have a #assessment-list container.
+function renderAssessmentIndex() {
+  const container = document.getElementById('assessment-list');
+  if (!container || typeof ASSESSMENTS === 'undefined') return;
+
+  container.innerHTML = ASSESSMENTS.map(cat => `
+    <section class="category-section">
+      <h2 class="category-label">${cat.category}</h2>
+      <div class="test-grid">
+        ${cat.items.map(item => `
+          <a class="test-card" href="${item.url}">
+            <div class="test-card-left">
+              <div class="test-card-name">${item.name}</div>
+              <div class="test-card-desc">${item.desc}</div>
+            </div>
+            <span class="test-card-arrow">→</span>
+          </a>
+        `).join('')}
+      </div>
+    </section>
+  `).join('');
+}
+
 // Init date field to today
 function initDateField() {
   const dateField = document.getElementById('client-date');
@@ -237,6 +262,7 @@ function initDateField() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+  renderAssessmentIndex();
   initOptions();
   initDateField();
   initDisclaimer();
