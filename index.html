@@ -18,114 +18,10 @@
   </div>
 </header>
 
-<main class="container">
-
-  <section class="category-section">
-    <h2 class="category-label">Depression</h2>
-    <div class="test-grid">
-      <a class="test-card" href="assessments/bdi.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Beck Depression Inventory (BDI)</div>
-          <div class="test-card-desc">21 items · Self-report · Measures severity of depression</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-      <a class="test-card" href="assessments/phq9.html">
-        <div class="test-card-left">
-          <div class="test-card-name">PHQ-9</div>
-          <div class="test-card-desc">9 items · Self-report · Patient Health Questionnaire for depression</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
-  <section class="category-section">
-    <h2 class="category-label">Anxiety</h2>
-    <div class="test-grid">
-      <a class="test-card" href="assessments/bai.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Beck Anxiety Inventory (BAI)</div>
-          <div class="test-card-desc">21 items · Self-report · Measures severity of anxiety symptoms</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-      <a class="test-card" href="assessments/gad7.html">
-        <div class="test-card-left">
-          <div class="test-card-name">GAD-7</div>
-          <div class="test-card-desc">7 items · Self-report · Generalised Anxiety Disorder scale</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-      <a class="test-card" href="assessments/asi3.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Anxiety Sensitivity Index-3 (ASI-3)</div>
-          <div class="test-card-desc">18 items · Self-report · Physical, cognitive & social subscales</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-      <a class="test-card" href="assessments/ius.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Intolerance of Uncertainty Scale (IUS-27)</div>
-          <div class="test-card-desc">27 items · Self-report · Total score plus two factor subscales</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
-  <section class="category-section">
-    <h2 class="category-label">Panic</h2>
-    <div class="test-grid">
-      <a class="test-card" href="assessments/pdss.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Panic Disorder Severity Scale – SR (PDSS-SR)</div>
-          <div class="test-card-desc">7 items · Self-report · Frequency, distress & avoidance</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
-  <section class="category-section">
-    <h2 class="category-label">Hopelessness & Risk</h2>
-    <div class="test-grid">
-      <a class="test-card" href="assessments/bhs.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Beck Hopelessness Scale (BHS)</div>
-          <div class="test-card-desc">20 items · True/False · Measures hopelessness and future outlook</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
-  <section class="category-section">
-    <h2 class="category-label">OCD</h2>
-    <div class="test-grid">
-      <a class="test-card" href="assessments/ybocs.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Yale-Brown Obsessive Compulsive Scale (Y-BOCS)</div>
-          <div class="test-card-desc">10 items · Clinician-administered · Obsessions & compulsions subscales</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
-  <section class="category-section">
-    <h2 class="category-label">Trauma & Stress</h2>
-    <div class="test-grid">
-      <a class="test-card" href="assessments/pss.html">
-        <div class="test-card-left">
-          <div class="test-card-name">Perceived Stress Scale (PSS-10)</div>
-          <div class="test-card-desc">10 items · Self-report · General perceived stress over the past month</div>
-        </div>
-        <span class="test-card-arrow">→</span>
-      </a>
-    </div>
-  </section>
-
+<main class="container" id="assessment-list">
+  <!-- Category sections and test cards are rendered automatically from
+       assessments-data.js by renderAssessmentIndex() in shared.js.
+       To add a new assessment, edit assessments-data.js only. -->
 </main>
 
 <footer class="site-footer">
@@ -134,5 +30,7 @@
   </div>
 </footer>
 
+<script src="assessments-data.js"></script>
+<script src="shared.js"></script>
 </body>
 </html>
