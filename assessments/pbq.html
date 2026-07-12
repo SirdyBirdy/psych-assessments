@@ -1,0 +1,1651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personality Belief Questionnaire (PBQ)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+
+<div class="assessment-header">
+  <div class="container">
+    <a class="back-link" href="../index.html">← All assessments</a>
+    <div class="assessment-title">Personality Belief Questionnaire</div>
+    <div class="assessment-subtitle">PBQ · 126 items · Self-report</div>
+  </div>
+</div>
+
+<main class="container">
+  <div class="client-info-card">
+    <div class="field-group">
+      <label for="client-name">Client Name</label>
+      <input type="text" id="client-name" placeholder="Full name" />
+    </div>
+    <div class="field-group">
+      <label for="client-age">Age</label>
+      <input type="number" id="client-age" placeholder="—" min="5" max="100" />
+    </div>
+    <div class="field-group">
+      <label for="client-date">Date</label>
+      <input type="date" id="client-date" />
+    </div>
+  </div>
+
+  <div class="disclaimer-banner"></div>
+
+  <div class="instructions">
+    Please read each statement and rate <strong>how much you believe it, most of the time</strong> — from <strong>0 (I don't believe it at all)</strong> to <strong>4 (I believe it totally).</strong>
+  </div>
+
+  <div id="questions">
+
+    <div class="question-block">
+      <div class="question-number">Question 1</div>
+      <div class="question-text">I am socially inept and socially undesirable in work or social situations.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q1" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q1" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q1" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q1" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q1" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 2</div>
+      <div class="question-text">Other people are potentially critical, indifferent, demeaning, or rejecting.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q2" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q2" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q2" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q2" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q2" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 3</div>
+      <div class="question-text">I cannot tolerate unpleasant feelings.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q3" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q3" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q3" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q3" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q3" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 4</div>
+      <div class="question-text">If people get close to me, they will discover the “real” me and reject me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q4" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q4" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q4" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q4" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q4" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 5</div>
+      <div class="question-text">Being exposed as inferior or inadequate will be intolerable.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q5" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q5" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q5" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q5" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q5" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 6</div>
+      <div class="question-text">I should avoid unpleasant situations at all cost.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q6" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q6" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q6" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q6" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q6" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 7</div>
+      <div class="question-text">If I feel or think something unpleasant, I should try to wipe it out or distract myself (for example, think of something else, have a drink, take a drug, or watch television).</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q7" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q7" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q7" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q7" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q7" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 8</div>
+      <div class="question-text">I should avoid situations in which I attract attention, or be as inconspicuous as possible.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q8" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q8" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q8" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q8" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q8" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 9</div>
+      <div class="question-text">Unpleasant feelings will escalate and get out of control.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q9" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q9" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q9" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q9" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q9" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 10</div>
+      <div class="question-text">If others criticize me, they must be right.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q10" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q10" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q10" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q10" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q10" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 11</div>
+      <div class="question-text">It is better not to do anything than to try something that might fail.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q11" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q11" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q11" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q11" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q11" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 12</div>
+      <div class="question-text">If I don’t think about a problem, I don’t have to do anything about it.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q12" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q12" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q12" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q12" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q12" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 13</div>
+      <div class="question-text">Any signs of tension in a relationship indicate the relationship has gone bad; therefore, I should cut it off.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q13" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q13" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q13" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q13" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q13" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 14</div>
+      <div class="question-text">If I ignore a problem, it will go away.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q14" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q14" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q14" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q14" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q14" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 15</div>
+      <div class="question-text">I am needy and weak.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q15" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q15" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q15" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q15" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q15" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 16</div>
+      <div class="question-text">I need somebody around available at all times to help me to carry out what I need to do or in case something bad happens.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q16" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q16" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q16" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q16" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q16" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 17</div>
+      <div class="question-text">My helper can be nurturant, supportive, and confident -- if he or she wants to be.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q17" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q17" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q17" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q17" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q17" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 18</div>
+      <div class="question-text">I am helpless when I’m left on my own.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q18" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q18" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q18" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q18" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q18" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 19</div>
+      <div class="question-text">I am basically alone -- unless I can attach myself to a stronger person.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q19" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q19" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q19" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q19" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q19" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 20</div>
+      <div class="question-text">The worst possible thing would be to be abandoned.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q20" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q20" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q20" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q20" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q20" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 21</div>
+      <div class="question-text">If I am not loved, I will always be unhappy.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q21" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q21" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q21" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q21" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q21" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 22</div>
+      <div class="question-text">I must do nothing to offend my supporter or helper.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q22" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q22" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q22" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q22" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q22" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 23</div>
+      <div class="question-text">I must be subservient in order to maintain his or her good will.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q23" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q23" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q23" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q23" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q23" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 24</div>
+      <div class="question-text">I must maintain access to him or her at all times.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q24" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q24" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q24" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q24" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q24" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 25</div>
+      <div class="question-text">I should cultivate as intimate a relationship as possible.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q25" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q25" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q25" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q25" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q25" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 26</div>
+      <div class="question-text">I can’t make decisions on my own.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q26" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q26" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q26" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q26" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q26" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 27</div>
+      <div class="question-text">I can’t cope as other people can.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q27" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q27" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q27" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q27" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q27" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 28</div>
+      <div class="question-text">I need others to help me make decisions or tell me what to do.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q28" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q28" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q28" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q28" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q28" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 29</div>
+      <div class="question-text">I am self-sufficient, but I do need others to help me reach my goals.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q29" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q29" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q29" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q29" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q29" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 30</div>
+      <div class="question-text">The only way I can preserve my self-respect is by asserting myself indirectly; for example, by not carrying out instructions exactly.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q30" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q30" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q30" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q30" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q30" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 31</div>
+      <div class="question-text">I like to be attached to people but I am unwilling to pay the price of being dominated.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q31" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q31" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q31" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q31" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q31" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 32</div>
+      <div class="question-text">Authority figures tend to be intrusive, demanding, interfering, and controlling.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q32" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q32" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q32" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q32" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q32" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 33</div>
+      <div class="question-text">I have to resist the domination of authorities but at the same time maintain their approval and acceptance.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q33" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q33" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q33" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q33" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q33" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 34</div>
+      <div class="question-text">Being controlled or dominated by others is intolerable.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q34" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q34" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q34" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q34" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q34" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 35</div>
+      <div class="question-text">I have to do things my own way.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q35" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q35" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q35" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q35" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q35" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 36</div>
+      <div class="question-text">Making deadlines, complying with demands, and conforming are direct blows to my pride and self-sufficiency.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q36" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q36" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q36" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q36" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q36" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 37</div>
+      <div class="question-text">If I follow the rules the way people expect, it will inhibit my freedom of action.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q37" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q37" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q37" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q37" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q37" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 38</div>
+      <div class="question-text">It is best not to express my anger directly but to show my displeasure by not conforming.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q38" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q38" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q38" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q38" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q38" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 39</div>
+      <div class="question-text">I know what’s best for me and other people shouldn’t tell me what to do.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q39" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q39" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q39" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q39" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q39" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 40</div>
+      <div class="question-text">Rules are arbitrary and stifle me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q40" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q40" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q40" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q40" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q40" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 41</div>
+      <div class="question-text">Other people are often too demanding.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q41" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q41" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q41" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q41" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q41" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 42</div>
+      <div class="question-text">If I regard people as too bossy, I have a right to disregard their demands.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q42" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q42" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q42" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q42" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q42" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 43</div>
+      <div class="question-text">I am fully responsible for myself and others.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q43" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q43" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q43" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q43" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q43" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 44</div>
+      <div class="question-text">I have to depend on myself to see that things get done.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q44" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q44" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q44" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q44" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q44" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 45</div>
+      <div class="question-text">Others tend to be too casual, often irresponsible, self-indulgent, or incompetent.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q45" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q45" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q45" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q45" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q45" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 46</div>
+      <div class="question-text">It is important to do a perfect job on everything.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q46" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q46" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q46" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q46" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q46" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 47</div>
+      <div class="question-text">I need order, systems, and rules in order to get the job done properly.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q47" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q47" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q47" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q47" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q47" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 48</div>
+      <div class="question-text">If I don’t have systems, everything will fall apart.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q48" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q48" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q48" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q48" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q48" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 49</div>
+      <div class="question-text">Any flaw or defect of performance may lead to a catastrophe.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q49" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q49" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q49" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q49" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q49" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 50</div>
+      <div class="question-text">It is necessary to stick to the highest standards at all times, or things will fall apart.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q50" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q50" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q50" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q50" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q50" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 51</div>
+      <div class="question-text">I need to be in complete control of my emotions.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q51" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q51" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q51" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q51" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q51" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 52</div>
+      <div class="question-text">People should do things my way.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q52" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q52" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q52" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q52" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q52" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 53</div>
+      <div class="question-text">If I don’t perform at the highest level, I will fail.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q53" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q53" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q53" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q53" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q53" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 54</div>
+      <div class="question-text">Flaws, defects, or mistakes are intolerable.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q54" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q54" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q54" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q54" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q54" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 55</div>
+      <div class="question-text">Details are extremely important.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q55" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q55" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q55" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q55" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q55" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 56</div>
+      <div class="question-text">My way of doing things is generally the best way.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q56" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q56" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q56" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q56" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q56" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 57</div>
+      <div class="question-text">I have to look out for myself.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q57" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q57" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q57" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q57" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q57" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 58</div>
+      <div class="question-text">Force or cunning is the best way to get things done.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q58" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q58" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q58" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q58" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q58" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 59</div>
+      <div class="question-text">We live in a jungle and the strong person is the one who survives.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q59" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q59" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q59" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q59" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q59" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 60</div>
+      <div class="question-text">People will get at me if I don’t get them first.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q60" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q60" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q60" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q60" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q60" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 61</div>
+      <div class="question-text">It is not important to keep promises or honor debts.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q61" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q61" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q61" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q61" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q61" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 62</div>
+      <div class="question-text">Lying and cheating are OK as long as you don’t get caught.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q62" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q62" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q62" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q62" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q62" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 63</div>
+      <div class="question-text">I have been unfairly treated and am entitled to get my fair share by whatever means I can.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q63" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q63" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q63" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q63" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q63" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 64</div>
+      <div class="question-text">Other people are weak and deserve to be taken.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q64" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q64" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q64" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q64" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q64" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 65</div>
+      <div class="question-text">If I don’t push other people, I will get pushed around.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q65" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q65" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q65" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q65" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q65" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 66</div>
+      <div class="question-text">I should do whatever I can get away with.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q66" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q66" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q66" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q66" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q66" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 67</div>
+      <div class="question-text">What others think of me doesn’t really matter.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q67" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q67" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q67" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q67" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q67" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 68</div>
+      <div class="question-text">If I want something, I should do whatever is necessary to get it.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q68" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q68" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q68" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q68" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q68" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 69</div>
+      <div class="question-text">I can get away with things so I don’t need to worry about bad consequences.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q69" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q69" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q69" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q69" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q69" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 70</div>
+      <div class="question-text">If people can’t take care of themselves, that’s their problem.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q70" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q70" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q70" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q70" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q70" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 71</div>
+      <div class="question-text">I am a very special person.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q71" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q71" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q71" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q71" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q71" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 72</div>
+      <div class="question-text">Since I am so superior, I am entitled to special treatment and privileges.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q72" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q72" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q72" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q72" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q72" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 73</div>
+      <div class="question-text">I don’t have to be bound by the rules that apply to other people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q73" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q73" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q73" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q73" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q73" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 74</div>
+      <div class="question-text">It is very important to get recognition, praise, and admiration.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q74" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q74" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q74" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q74" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q74" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 75</div>
+      <div class="question-text">If others don’t respect my status, they should be punished.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q75" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q75" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q75" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q75" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q75" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 76</div>
+      <div class="question-text">Other people should satisfy my needs.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q76" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q76" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q76" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q76" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q76" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 77</div>
+      <div class="question-text">Other people should recognize how special I am.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q77" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q77" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q77" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q77" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q77" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 78</div>
+      <div class="question-text">It’s intolerable if I’m not accorded my due respect or don’t get what I’m entitled to.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q78" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q78" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q78" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q78" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q78" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 79</div>
+      <div class="question-text">Other people don’t deserve the admiration or riches they get.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q79" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q79" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q79" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q79" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q79" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 80</div>
+      <div class="question-text">People have no right to criticize me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q80" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q80" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q80" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q80" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q80" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 81</div>
+      <div class="question-text">No one’s needs should interfere with my own.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q81" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q81" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q81" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q81" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q81" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 82</div>
+      <div class="question-text">Since I am so talented, people should go out of their way to promote my career.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q82" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q82" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q82" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q82" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q82" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 83</div>
+      <div class="question-text">Only people as brilliant as I am understand me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q83" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q83" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q83" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q83" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q83" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 84</div>
+      <div class="question-text">I have every reason to expect grand things.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q84" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q84" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q84" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q84" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q84" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 85</div>
+      <div class="question-text">I am an interesting, exciting person.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q85" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q85" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q85" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q85" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q85" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 86</div>
+      <div class="question-text">In order to be happy, I need other people to pay attention to me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q86" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q86" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q86" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q86" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q86" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 87</div>
+      <div class="question-text">Unless I entertain or impress people, I am nothing.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q87" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q87" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q87" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q87" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q87" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 88</div>
+      <div class="question-text">If I don’t keep others engaged with me, they won’t like me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q88" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q88" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q88" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q88" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q88" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 89</div>
+      <div class="question-text">The way to get what I want is to dazzle or amuse people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q89" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q89" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q89" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q89" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q89" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 90</div>
+      <div class="question-text">If people don’t respond very positively to me, they are rotten.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q90" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q90" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q90" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q90" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q90" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 91</div>
+      <div class="question-text">It is awful if people ignore me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q91" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q91" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q91" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q91" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q91" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 92</div>
+      <div class="question-text">I should be the center of attention.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q92" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q92" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q92" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q92" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q92" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 93</div>
+      <div class="question-text">I don’t have to bother to think things through -- I can go by my “gut” feeling.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q93" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q93" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q93" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q93" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q93" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 94</div>
+      <div class="question-text">If I entertain people, they will not notice my weaknesses.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q94" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q94" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q94" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q94" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q94" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 95</div>
+      <div class="question-text">I cannot tolerate boredom.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q95" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q95" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q95" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q95" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q95" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 96</div>
+      <div class="question-text">If I feel like doing something, I should go ahead and do it.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q96" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q96" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q96" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q96" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q96" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 97</div>
+      <div class="question-text">People will pay attention only if I act in extreme ways.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q97" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q97" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q97" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q97" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q97" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 98</div>
+      <div class="question-text">Feelings and intuition are much more important than rational thinking and planning.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q98" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q98" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q98" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q98" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q98" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 99</div>
+      <div class="question-text">It doesn’t matter what other people think of me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q99" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q99" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q99" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q99" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q99" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 100</div>
+      <div class="question-text">It is important for me to be free and independent of others.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q100" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q100" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q100" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q100" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q100" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 101</div>
+      <div class="question-text">I enjoy doing things more by myself than with other people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q101" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q101" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q101" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q101" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q101" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 102</div>
+      <div class="question-text">In many situations, I am better off to be left alone.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q102" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q102" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q102" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q102" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q102" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 103</div>
+      <div class="question-text">I am not influenced by others in what I decide to do.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q103" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q103" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q103" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q103" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q103" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 104</div>
+      <div class="question-text">Intimate relations with other people are not important to me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q104" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q104" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q104" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q104" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q104" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 105</div>
+      <div class="question-text">I set my own standards and goals for myself.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q105" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q105" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q105" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q105" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q105" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 106</div>
+      <div class="question-text">My privacy is much more important to me than closeness to people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q106" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q106" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q106" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q106" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q106" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 107</div>
+      <div class="question-text">What other people think doesn’t matter to me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q107" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q107" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q107" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q107" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q107" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 108</div>
+      <div class="question-text">I can manage things on my own without anybody’s help.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q108" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q108" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q108" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q108" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q108" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 109</div>
+      <div class="question-text">It’s better to be alone than to feel “stuck” with other people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q109" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q109" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q109" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q109" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q109" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 110</div>
+      <div class="question-text">I shouldn’t confide in others.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q110" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q110" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q110" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q110" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q110" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 111</div>
+      <div class="question-text">I can use other people for my own purposes as long as I don’t get involved.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q111" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q111" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q111" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q111" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q111" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 112</div>
+      <div class="question-text">Relationships are messy and interfere with freedom.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q112" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q112" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q112" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q112" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q112" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 113</div>
+      <div class="question-text">I cannot trust other people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q113" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q113" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q113" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q113" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q113" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 114</div>
+      <div class="question-text">Other people have hidden motives.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q114" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q114" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q114" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q114" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q114" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 115</div>
+      <div class="question-text">Others will try to use me or manipulate me if I don’t watch out.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q115" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q115" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q115" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q115" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q115" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 116</div>
+      <div class="question-text">I have to be on guard at all times.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q116" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q116" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q116" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q116" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q116" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 117</div>
+      <div class="question-text">It isn’t safe to confide in other people.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q117" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q117" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q117" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q117" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q117" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 118</div>
+      <div class="question-text">If people act friendly, they may be trying to use or exploit me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q118" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q118" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q118" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q118" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q118" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 119</div>
+      <div class="question-text">People will take advantage of me if I give them the chance.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q119" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q119" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q119" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q119" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q119" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 120</div>
+      <div class="question-text">For the most part, other people are unfriendly.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q120" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q120" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q120" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q120" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q120" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 121</div>
+      <div class="question-text">Other people will deliberately try to demean me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q121" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q121" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q121" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q121" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q121" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 122</div>
+      <div class="question-text">Oftentimes people deliberately want to annoy me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q122" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q122" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q122" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q122" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q122" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 123</div>
+      <div class="question-text">I will be in serious trouble if I let other people think they can get away with mistreating me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q123" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q123" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q123" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q123" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q123" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 124</div>
+      <div class="question-text">If other people find out things about me, they will use them against me.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q124" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q124" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q124" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q124" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q124" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 125</div>
+      <div class="question-text">People often say one thing and mean something else.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q125" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q125" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q125" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q125" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q125" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+
+    <div class="question-block">
+      <div class="question-number">Question 126</div>
+      <div class="question-text">A person whom I am close to could be disloyal or unfaithful.</div>
+      <div class="options">
+        <label class="option-label"><input type="radio" name="q126" value="0" /><span class="option-score">0</span>I don't believe it at all</label>
+        <label class="option-label"><input type="radio" name="q126" value="1" /><span class="option-score">1</span>I believe it slightly</label>
+        <label class="option-label"><input type="radio" name="q126" value="2" /><span class="option-score">2</span>I believe it moderately</label>
+        <label class="option-label"><input type="radio" name="q126" value="3" /><span class="option-score">3</span>I believe it very much</label>
+        <label class="option-label"><input type="radio" name="q126" value="4" /><span class="option-score">4</span>I believe it totally</label>
+      </div>
+    </div>
+  </div><!-- end questions -->
+
+  <div style="height: 100px;"></div>
+</main>
+
+<div class="score-bar">
+  <div class="container">
+    <div>
+      <div class="score-display">
+        <span class="score-number" id="live-score">0</span>
+        <span class="score-label">/ 10 scales elevated</span>
+      </div>
+      <span class="score-interpretation" id="interpretation">—</span>
+    </div>
+    <span class="progress-note" id="progress-note">0 of 126 answered</span>
+    <button class="btn-download" id="download-btn" onclick="handleDownload()">
+      ↓ Download PDF
+    </button>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="../shared.js"></script>
+<script>
+// Scoring key: Beck, A. T., Butler, A. C., Brown, G. K., Dahlsgaard, K. K.,
+// Newman, C. F., & Beck, J. S. (2001). Dysfunctional beliefs discriminate
+// personality disorders. Behaviour Research and Therapy, 39, 1213-1225.
+// Borderline scale: Butler, Brown, Beck & Grisham (2002).
+//
+// Each scale's z-score is (raw score - mean) / SD, using the norms below
+// drawn from a sample of 756 psychiatric outpatients with mixed diagnoses.
+const SCALES = [
+  { name: 'Avoidant',            items: range(1, 14),  mean: 18.8, sd: 10.9 },
+  { name: 'Dependent',           items: range(15, 28), mean: 18.0, sd: 11.8 },
+  { name: 'Passive-Aggressive',  items: range(29, 42), mean: 19.3, sd: 10.5 },
+  { name: 'Obsessive-Compulsive',items: range(43, 56), mean: 22.7, sd: 11.5 },
+  { name: 'Antisocial',          items: range(57, 70), mean: 9.3,  sd: 6.8  },
+  { name: 'Narcissistic',        items: range(71, 84), mean: 10.0, sd: 7.6  },
+  { name: 'Histrionic',          items: range(85, 98), mean: 14.0, sd: 9.3  },
+  { name: 'Schizoid',            items: range(99, 112),mean: 16.3, sd: 8.6  },
+  { name: 'Paranoid',            items: range(113,126),mean: 14.6, sd: 11.3 },
+  { name: 'Borderline',          items: [4, 9, 13, 15, 16, 18, 27, 60, 97, 113, 116, 119, 125, 126], mean: 15.8, sd: 10.5 },
+];
+
+function range(start, end) {
+  const arr = [];
+  for (let i = start; i <= end; i++) arr.push(i);
+  return arr;
+}
+
+function getItemValue(itemNum) {
+  const block = document.querySelectorAll('.question-block')[itemNum - 1];
+  const selected = block?.querySelector('input[type="radio"]:checked');
+  return selected ? parseInt(selected.value) : 0;
+}
+
+function computeScales() {
+  return SCALES.map(scale => {
+    const raw = scale.items.reduce((sum, n) => sum + getItemValue(n), 0);
+    const z = (raw - scale.mean) / scale.sd;
+    return { name: scale.name, raw, z };
+  });
+}
+
+function updateScore() {
+  const results = computeScales();
+  const elevated = results.filter(r => r.z > 0).length;
+  const top = results.reduce((a, b) => (b.z > a.z ? b : a));
+
+  document.getElementById('live-score').textContent = elevated;
+  document.getElementById('interpretation').textContent =
+    `Highest: ${top.name} (z ${top.z >= 0 ? '+' : ''}${top.z.toFixed(2)})`;
+  updateProgressNote();
+}
+
+function handleDownload() {
+  const results = computeScales();
+  const elevated = results.filter(r => r.z > 0).length;
+  const top = results.reduce((a, b) => (b.z > a.z ? b : a));
+
+  const subscales = results.map(r => ({
+    name: `${r.name} · z ${r.z >= 0 ? '+' : ''}${r.z.toFixed(2)}`,
+    score: r.raw,
+  }));
+
+  generatePDF(
+    'Personality Belief Questionnaire (PBQ)',
+    String(elevated),
+    `of 10 scales elevated · highest: ${top.name}`,
+    subscales
+  );
+}
+</script>
+</body>
+</html>
