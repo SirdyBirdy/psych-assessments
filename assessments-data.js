@@ -90,4 +90,14 @@ const ASSESSMENTS = [
       },
     ],
   },
+  {
+    category: 'Personality Disorders',
+    items: [
+      {
+        name: 'Personality Belief Questionnaire (PBQ)',
+        desc: '126 items · Self-report · 10 PD scales + Borderline composite, scored against Beck norms',
+        url: 'assessments/pbq.html',
+      },
+    ],
+  },
 ];
